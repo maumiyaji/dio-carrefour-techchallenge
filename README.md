@@ -30,6 +30,8 @@ No HTML (carrefour_telegram.html), o link do bot também não está disponível:
 
 Para testar, é preciso criar um Bot, através do BotFather, que vai dar essas duas informações. Aí é só coloca-las nos lugares certos.
 
+O Bot que foi criado se chama 'BotCarrefourDoMau'. Se tentar conversar com ele, não vai funcionar porque ele não está em nenhum Host, só na minha máquina. 
+
 Como o tempo foi curto, também não deu para estudar melhor todos os objetos e comandos do Telegram, por isso ainda tenho várias dúvidas:
 
 • Não sei como impedir/bloquear o envio de mensagens antes que o usuário clique em um botão do InlineKeyboard
