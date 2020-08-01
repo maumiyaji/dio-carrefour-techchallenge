@@ -170,7 +170,7 @@ def end(update, context):
 # Aplicação principal
 def main():
     # Cria o Updater e envia o token do Bot
-    updater = Updater("1338690097:AAET37Fk57oXHeCFaEdkfR2XcsNTX4j5gXg", use_context=True)
+    updater = Updater("TOKEN", use_context=True)
 
     # através do 'dispatcher' iremos cadastrar os nossos comandos no Bot
     dp = updater.dispatcher
