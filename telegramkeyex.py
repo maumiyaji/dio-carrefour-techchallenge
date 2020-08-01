@@ -7,21 +7,7 @@ https://github.com/python-telegram-bot/python-telegram-bot/
 
 Lá estão vários exemplos de telegram-bots, cada um com uma característica.
 
-Como o Flask foi utilizado, para rodar o programa, é só seguir a ordem abaixo:
-
-$ export FLASK_APP=telegramkeyex.py
-$ export FLASK_ENV=development
-$ flask run
 """
-
-from flask import Flask, render_template
-app = Flask(__name__)
-
-
-@app.route('/')
-def coverpage():
-    return render_template("carrefour_telegram.html")
-
 
 import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -184,7 +170,7 @@ def end(update, context):
 # Aplicação principal
 def main():
     # Cria o Updater e envia o token do Bot
-    updater = Updater("TOKEN", use_context=True)
+    updater = Updater("1338690097:AAET37Fk57oXHeCFaEdkfR2XcsNTX4j5gXg", use_context=True)
 
     # através do 'dispatcher' iremos cadastrar os nossos comandos no Bot
     dp = updater.dispatcher
@@ -222,4 +208,4 @@ def main():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    main()
