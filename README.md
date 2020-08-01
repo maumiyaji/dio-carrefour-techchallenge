@@ -22,7 +22,7 @@ que vai dar essas duas informações. Aí é só coloca-las nos lugares certos p
 
 Como o tempo foi curto, não deu para estudar melhor todos os objetos e comandos do Telegram, por isso ainda tenho várias dúvidas:
 
-	• Não sei como impedir/bloquear o envio de mensagens antes que o usuário clique em um botão do InlineKeyboard
-	• Assim como no BotFather, não sei como abrir um menu de opções quando o usuário entra com um caractere, como o '/', por exemplo.
+. Não sei como impedir/bloquear o envio de mensagens antes que o usuário clique em um botão do InlineKeyboard
+. Assim como no BotFather, não sei como abrir um menu de opções quando o usuário entra com um caractere, como o '/', por exemplo.
 
 A webpage-cover foi feita em HTML/CSS/Bootstrap, só para 'enfeitar' um pouco o projeto. Não utilizei o Angular porque ainda não estudei o bastante para fazer a integração entre ele e as outras tecnologias (conheci o Python, o Flask, a API dos Telegram-bots e o próprio Angular há poucas semanas...) por isso ainda deve dar para melhorar muito todo o projeto, mas estou satisfeito em ter conseguido finaliza-lo dentro do prazo!
